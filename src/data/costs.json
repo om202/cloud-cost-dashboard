@@ -1,0 +1,1382 @@
+[
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  45200,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  18500,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  3200,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  1800,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  12400,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  28900,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  22100,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  8700,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  4500,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  6200,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  15600,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  9800,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  450,
+        "budget":  500
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2200,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3400,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1200,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  2800,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  900,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  8900,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  1500,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  3200,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-01-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2100,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  47800,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  19200,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  3400,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  2100,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  13100,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  29500,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  23800,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  9100,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  5200,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  6800,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  16200,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  10200,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  470,
+        "budget":  500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2300,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3500,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1250,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  2900,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  950,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  9200,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  1600,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  3400,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-02-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2200,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  51200,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  19800,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  3600,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  2400,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  14200,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  31200,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  25400,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  9800,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  5900,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  7400,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  16800,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  10800,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  480,
+        "budget":  500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2400,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3600,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1300,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3100,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  980,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  9600,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  1700,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  3600,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2400,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  52800,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  20500,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  3800,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  2600,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  15800,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  32100,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  26200,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  10200,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  6400,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  7800,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  17200,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  11200,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  490,
+        "budget":  500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2450,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3700,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1350,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3200,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1020,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  10200,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  1800,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  3800,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2500,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  54500,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  21200,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  4100,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  2800,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  16500,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  33400,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  27100,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  10800,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  6900,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  8200,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  17600,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  11800,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  510,
+        "budget":  500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2550,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3800,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1400,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3300,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1050,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  10800,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  1900,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  4000,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2700,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  56200,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  21800,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  4300,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "Lambda",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  3000,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-west-2",
+        "owner":  "Mike Torres",
+        "cost":  17200,
+        "budget":  15000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  34800,
+        "budget":  30000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  28500,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "S3",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  11400,
+        "budget":  8000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Athena",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  7400,
+        "budget":  5000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "Glue",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  8800,
+        "budget":  6000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  18100,
+        "budget":  18000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  12400,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "Route53",
+        "region":  "us-east-1",
+        "owner":  "James Wright",
+        "cost":  530,
+        "budget":  500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "VPC",
+        "region":  "us-west-2",
+        "owner":  "James Wright",
+        "cost":  2600,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3900,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "CloudTrail",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1450,
+        "budget":  1500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "WAF",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3400,
+        "budget":  3000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "KMS",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  1100,
+        "budget":  1000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  11200,
+        "budget":  10000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "ECR",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  2100,
+        "budget":  2000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "CodeBuild",
+        "region":  "us-east-1",
+        "owner":  "Carlos Mendez",
+        "cost":  4200,
+        "budget":  3500
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "DevOps Tooling",
+        "account_id":  "555555555555",
+        "service":  "S3",
+        "region":  "us-west-2",
+        "owner":  "Carlos Mendez",
+        "cost":  2900,
+        "budget":  2500
+    },
+    {
+        "date":  "2026-03-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "RDS",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  25400,
+        "budget":  20000
+    },
+    {
+        "date":  "2026-04-01",
+        "account_name":  "Platfrom Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  52800,
+        "budget":  50000
+    },
+    {
+        "date":  "06/01/2026",
+        "account_name":  "Security",
+        "account_id":  "444444444444",
+        "service":  "GuardDuty",
+        "region":  "us-east-1",
+        "owner":  "Priya Patel",
+        "cost":  3950,
+        "budget":  4000
+    },
+    {
+        "date":  "2026-05-01",
+        "account_name":  "Data Analytics",
+        "account_id":  "222222222222",
+        "service":  "SageMaker",
+        "region":  "us-east-1",
+        "owner":  "Sarah Chen",
+        "cost":  null,
+        "budget":  12000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Platform Engineering",
+        "account_id":  "111111111111",
+        "service":  "EC2",
+        "region":  "us-east-1",
+        "owner":  "Mike Torres",
+        "cost":  -1200,
+        "budget":  50000
+    },
+    {
+        "date":  "2026-06-01",
+        "account_name":  "Networking",
+        "account_id":  "333333333333",
+        "service":  "CloudFront",
+        "region":  "us-east-1",
+        "owner":  null,
+        "cost":  12100,
+        "budget":  10000
+    }
+]

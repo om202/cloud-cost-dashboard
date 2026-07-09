@@ -1,0 +1,103 @@
+:root {
+  --background: #ffffff;
+  --foreground: #202124;
+  --card: #ffffff;
+  --card-foreground: #202124;
+  --popover: #ffffff;
+  --popover-foreground: #202124;
+  --primary: #1a73e8;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f3f4;
+  --secondary-foreground: #202124;
+  --muted: #f1f3f4;
+  --muted-foreground: #5f6368;
+  --accent: #e8f0fe;
+  --accent-foreground: #1967d2;
+  --destructive: #d93025;
+  --border: #dadce0;
+  --input: #dadce0;
+  --ring: #4285f4;
+
+  --sidebar: #f8f9fa;
+  --sidebar-foreground: #202124;
+  --sidebar-border: #dadce0;
+  --sidebar-accent: #f1f3f4;
+  --sidebar-accent-foreground: #202124;
+  --sidebar-primary: #1a73e8;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-ring: #4285f4;
+
+  --over: #d93025;
+  --over-soft: #fce8e6;
+  --under: #188038;
+  --under-soft: #e6f4ea;
+  --warn: #ea8600;
+  --warn-soft: #fef7e0;
+
+  --chart-1: #4285f4;
+  --chart-2: #ea4335;
+  --chart-3: #fbbc04;
+  --chart-4: #34a853;
+  --chart-5: #12b5cb;
+  --chart-6: #fa7b17;
+  --chart-7: #a142f4;
+  --chart-8: #ff63b8;
+}
+
+.dark {
+  --background: #202124;
+  --foreground: #e8eaed;
+  --card: #292a2d;
+  --card-foreground: #e8eaed;
+  --popover: #292a2d;
+  --popover-foreground: #e8eaed;
+  --primary: #8ab4f8;
+  --primary-foreground: #202124;
+  --secondary: #303134;
+  --secondary-foreground: #e8eaed;
+  --muted: #303134;
+  --muted-foreground: #9aa0a6;
+  --accent: #303134;
+  --accent-foreground: #8ab4f8;
+  --destructive: #f28b82;
+  --border: #3c4043;
+  --input: #3c4043;
+  --ring: #8ab4f8;
+
+  --sidebar: #202124;
+  --sidebar-foreground: #e8eaed;
+  --sidebar-border: #3c4043;
+  --sidebar-accent: #303134;
+  --sidebar-accent-foreground: #e8eaed;
+  --sidebar-primary: #8ab4f8;
+  --sidebar-primary-foreground: #202124;
+  --sidebar-ring: #8ab4f8;
+
+  --over: #f28b82;
+  --over-soft: #3c211e;
+  --under: #81c995;
+  --under-soft: #1f3a29;
+  --warn: #fdd663;
+  --warn-soft: #3a2f11;
+
+  --chart-1: #8ab4f8;
+  --chart-2: #f28b82;
+  --chart-3: #fdd663;
+  --chart-4: #81c995;
+  --chart-5: #78d9ec;
+  --chart-6: #fcad70;
+  --chart-7: #c58af9;
+  --chart-8: #ff8bcb;
+}
+
+@theme inline {
+  --color-over: var(--over);
+  --color-over-soft: var(--over-soft);
+  --color-under: var(--under);
+  --color-under-soft: var(--under-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-chart-6: var(--chart-6);
+  --color-chart-7: var(--chart-7);
+  --color-chart-8: var(--chart-8);
+}

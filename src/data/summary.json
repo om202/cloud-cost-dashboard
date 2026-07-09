@@ -1,0 +1,55 @@
+{
+  "accounts": [
+    {
+      "account_name": "Data Analytics",
+      "account_id": "222222222222",
+      "owner": "Sarah Chen",
+      "total_cost": 484500,
+      "total_budget": 414000,
+      "variance": 70500,
+      "utilization_pct": 117.0
+    },
+    {
+      "account_name": "Platform Engineering",
+      "account_id": "111111111111",
+      "owner": "Mike Torres",
+      "total_cost": 555000,
+      "total_budget": 549000,
+      "variance": 6000,
+      "utilization_pct": 101.1
+    },
+    {
+      "account_name": "DevOps Tooling",
+      "account_id": "555555555555",
+      "owner": "Carlos Mendez",
+      "total_cost": 107500,
+      "total_budget": 108000,
+      "variance": -500,
+      "utilization_pct": 99.5
+    },
+    {
+      "account_name": "Networking",
+      "account_id": "333333333333",
+      "owner": "James Wright",
+      "total_cost": 185130,
+      "total_budget": 186000,
+      "variance": -870,
+      "utilization_pct": 99.5
+    },
+    {
+      "account_name": "Security",
+      "account_id": "444444444444",
+      "owner": "Priya Patel",
+      "total_cost": 54550,
+      "total_budget": 57000,
+      "variance": -2450,
+      "utilization_pct": 95.7
+    }
+  ],
+  "totals": {
+    "total_cost": 1386680,
+    "total_budget": 1314000,
+    "total_variance": 72680,
+    "account_count": 5
+  }
+}
